@@ -24,12 +24,13 @@ import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, AreaChart,
 
 // --- Firebase Configuration ---
 const firebaseConfig = {
-  apiKey: "AIzaSyCAkwLBeUNutOdh6gJp33mkcZL_dgBhW3A",
-  authDomain: "spacextrade-b4ccd.firebaseapp.com",
-  projectId: "spacextrade-b4ccd",
-  storageBucket: "spacextrade-b4ccd.appspot.com",
-  messagingSenderId: "129576961369",
-  appId: "1:129576961369:web:e483911534e822c61b7848"
+apiKey: "AIzaSyAvYmLTcwuuk9PYc891qcxww9b8OMYIsdc",
+  authDomain: "spacextrade-crypto-app.firebaseapp.com",
+  projectId: "spacextrade-crypto-app",
+  storageBucket: "spacextrade-crypto-app.firebasestorage.app",
+  messagingSenderId: "357090959109",
+  appId: "1:357090959109:web:c3b927f3ad4eaddeb9616c",
+  measurementId: "G-5GE2MCJ52B"
 };
 
 // --- !!! YOUR WALLET ADDRESSES !!! ---
