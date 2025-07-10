@@ -1,0 +1,46 @@
+/* File: src/styles/index.css */
+
+/* Import Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Fonts (optional) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Apply a nice background and font globally */
+body {
+  @apply bg-gray-950 text-white font-sans;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #4ade80;
+  border-radius: 8px;
+}
+
+/* Button transitions */
+button {
+  @apply transition duration-200 ease-in-out;
+}
+
+/* Reusable card style */
+.card {
+  @apply bg-gray-800 p-4 rounded-lg shadow-md hover:shadow-lg;
+}
+
+/* Marquee styling */
+.marquee span {
+  @apply inline-block mx-6 text-yellow-300 font-semibold;
+}
+
+/* Responsive utility overrides (if needed) */
+/* Add more custom styles here */
